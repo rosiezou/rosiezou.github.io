@@ -10,6 +10,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
@@ -30,16 +31,8 @@
   </head>
   <body>
     <!-- Nav tabs -->
-    <nav class="navbar navbar-light bg-faded">
-      <ul class="nav nav-tabs navbar-right bg-faded" style="padding-right: 30px" role="tablist">
-        <li class="nav-item bg-faded">
-          <a class="nav-link active" data-toggle="tab" href="#STOML" role="tab">STOML</a>
-        </li>
-        <li class="nav-item bg-faded">
-          <a class="nav-link" data-toggle="tab" href="#Writings" role="tab">Writings</a>
-        </li>
-      </ul>
-      <ul class="nav nav-tabs navbar-left bg-faded" style="padding-left: 30px" role="tablist">
+    <nav class="nav bg-faded">
+      <ul class="nav nav-tabs pull-right bg-faded" role="tablist" style="padding-bottom: 10px">
         <li class="nav-item bg-faded">
           <a class="nav-link active" data-toggle="tab" href="#STOML" role="tab">STOML</a>
         </li>
@@ -50,9 +43,40 @@
     </nav>
 
     <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane active" id="STOML" role="tabpanel">This is where my resume goes.</div>
-      <div class="tab-pane" id="Writings" role="tabpanel">This is where everything else goes.</div>
+    <div class="tab-content container">
+      <div class="tab-pane active text-center small-container" id="STOML" role="tabpanel">
+        <!--A pic of myself-->
+          <div class="small-container" style="padding-bottom: 50px">
+            <img src="images/portrait.png">
+          </div>
+        <!--Welcome-->
+          <div>
+            Hello and welcome to my site!<br></br> My name is Rosie Zou and I'm a third-year Math student at
+            the University of Waterloo, with a minor in Computer Science. Originally starting out
+            with a major in Financial Analysis, I have grown increasingly interested in Data Science over
+            the past two years and have recently switched into Statistics. My passion for
+            Machine Learning has motivated a lot of my hackathon projects and entrepreneurial pursuits.
+            Scroll down for my professional experience and list of projects below. Enjoy!
+          </div>
+
+        <!--Work Experience-->
+          <div style="padding-top: 50px">
+            Equity Trading Assistant, Apr - Dec 2016<br></br>
+            <ul class="text-left">
+              <li>
+                Researched various financial databases such as NASDAQ and IIROC to compile month-end market reports.
+              </li>
+              <li>
+                Automated daily client trade recaps using VBScript and SQL.
+              </li>
+            </ul>
+
+
+          </div>
+        </head>
+      </div>
+      <div class="tab-pane text-center" id="Writings" role="tabpanel">This is where everything else goes.</div>
     </div>
+
   </body>
 </html>
