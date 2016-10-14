@@ -1,15 +1,12 @@
-.nav-borders {
-  border-style : hidden;
-  margin-bottom: 0px;
-}
-
 .bg-none {
   background-color : transparent;
+  border-style : hidden;
 }
+
 
 .bg-size{
 /* Will stretch to width/height of element */
-  background-size:100% auto;
+  background-size:100%;
 }
 
 .name-format{
@@ -50,8 +47,17 @@
   max-width: 100%;
 }
 
+@keyframes change-hue {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+
+}
+
 .bg-overall{
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
+  animation-name: change-hue;
 }
