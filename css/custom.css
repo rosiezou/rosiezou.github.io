@@ -1,3 +1,7 @@
+body {
+  display: block !important;
+}
+
 .bg-none {
   background-color : transparent;
   border-style : hidden;
