@@ -45,6 +45,11 @@ body {
   padding-right: 10%;
 }
 
+.content-format2{
+  font-family: Open Sans Condensed;
+  font-size: 12pt;
+}
+
 .content-page-one {
   height: 100vh;
   width: 100%;
@@ -64,4 +69,9 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   animation-name: change-hue;
+}
+
+.bg2{
+  background-image:url("../images/bg2.png");
+  background-size: 100%;
 }

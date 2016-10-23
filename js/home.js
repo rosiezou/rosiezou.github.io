@@ -11,13 +11,3 @@
   }
   return false;
   }
-
-  $(document).scroll(function() {
-                  scroll_position = $(this).scrollTop();
-                  if(scroll_pos > 0) {
-                      $("navbar").css('background-color', #FFFFFF);
-                  } else {
-                      $("navbar").css('background-color', transparent);
-                  }
-              });
-          });
