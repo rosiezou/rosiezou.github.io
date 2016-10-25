@@ -30,29 +30,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body background="images/bg.png" class="bg-overall" style="display:none">
-    <div>
-      <nav class="navbar navbar-fixed-top bg-none" id = "navbar">
-          <ul class="nav nav-tabs pull-right bg-none" role = "tablist">
-            <li class="nav-item">
-              <a class="nav-link active" data-toggle="tab" href="#SOML" style="border-style: hidden; font-family: Open Sans" role = "tab">
-                SOML
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="tab" href="#Writings" style="border-style: hidden; font-family: Open Sans" role = "tab">
-                Writings
-              </a>
-            </li>
-          </ul>
-      </nav>
-    </div>
-
-    <div class="container tab-content">
-      <div class="tab-pane active" id="SOML" role="tabpanel">
-
+  <body>
         <div class="content-page-one">
-          <div class = "text-center name-format" style="padding-top: 15%">
+          <div class = "text-center name-format" style="padding-top: 10%">
             Rosie Zou
           </div>
           <div class = "text-center bio-format"><br></br>
@@ -60,11 +40,14 @@
           </div>
           <div class "container-fluid">
             <div class="row content-format">
-              <div class="col-md-4 text-center"><a href="http://github.com/rosiezou" target="_blank">Github</a></div>
-              <div class="col-md-4 text-center"><a href="https://ca.linkedin.com/in/rosiezou" target="_blank">LinkedIn</a></div>
-              <div class="col-md-4 text-center"><a href="http://devpost.com/rosiezou" target="_blank">Devpost</a></div>
+              <div class="col-xs-3 text-center"><a href="http://github.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Github</a></div>
+              <div class="col-xs-3 text-center"><a href="https://ca.linkedin.com/in/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">LinkedIn</a></div>
+              <div class="col-xs-3 text-center"><a href="http://devpost.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Devpost</a></div>
+              <div class="col-xs-3 text-center"><a href="mailto:rosiezou@gmail.com" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Email</a></div>
             </div>
           </div>
+        </div>
+        <div class="AboutMe">
           <div class = "subtitle-format">
             About Me
           </div>
@@ -77,7 +60,6 @@
             Scroll down for my professional experience and projects. Enjoy!<br>
           </div>
         </div>
-
         <div class = "container subtitle-format">
           Professional Experience
         </div>
@@ -112,9 +94,8 @@
             Projects
           </div>
         </div>
-      </div>
       <!-- Writings -->
-      <div class="tab-pane" id="Writings" role="tabpanel">
+      <div class="tab-pane" id="Writings" role="tabpanel" style="display:none">
         <div class = "container text-center bio-format" style="padding-top: 15%">
           I've been interested in creative writing since I was in high school. While my current studies and career pursuits
           give me very little free time, I still manage to fit in a few 10-minute writing drills here and there. Anyways,
@@ -159,6 +140,5 @@
         </div>
         <p><a class="content-format" style="cursor:pointer;" onclick="return toggleMe('para1')">More</a></p>
       </div>
-    </div>
   </body>
 </html>
