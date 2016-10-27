@@ -83,31 +83,32 @@ html,body
   color: black;
   padding-top: 5%
 }
-.subtitle-format{
+
+.work-subtitle-format{
   font-family: Roboto Condensed;
   font-size: 20pt;
   text-align: center;
   font-weight: bold;
   color: black;
-  padding-top: 10%;
+  padding-top: 15px;
 }
+
 .about-content-format{
   font-family: Open Sans Condensed;
   height: 100vh;
-  font-size: 14pt;
+  font-size: 15pt;
   padding-top: 10%;
   padding-left: 10%;
   padding-right: 10%;
 }
 
-.content-format{
+.work-content-format{
   font-family: Open Sans Condensed;
+  height: 100vh;
   font-size: 14pt;
-}
-
-.content-format2{
-  font-family: Open Sans Condensed;
-  font-size: 12pt;
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .content-page-one {
@@ -119,26 +120,6 @@ html,body
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-@keyframes change-hue {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-
-}
-
-.bg-overall{
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  animation-name: change-hue;
-}
-
-.bg2{
-  background-image:url("../images/bg2.png");
-  background-size: 100%;
 }
 
 .AboutMe{
@@ -160,3 +141,135 @@ html,body
   -o-background-size: cover;
   background-size: cover;
 }
+
+.HackTheNorth{
+  height: 100vh;
+  background-image: url("../images/HackTheNorthFall2k15.png");
+  opacity: 0.5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.WorkExperience{
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../images/bg3.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.Projects{
+  width: 100%;
+  max-width: 100%;
+  background-image: url("../images/bg4.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.projects-subtitle-format{
+  font-family: Roboto Condensed;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding-top: 15px;
+}
+
+.TorontoPic{
+  height: 100vh;
+  background-image: url("../images/Toronto.png");
+  opacity: 0.5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@charset "utf-8";
+  /* CSS Document */
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+   .fonts
+   {
+    font-size: 100%;
+   }
+  }
+  /* Smartphones (landscape) ----------- */
+  @media only screen
+  and (min-width : 321px) {
+   .fonts
+   {
+    font-size: 100%;
+   }
+  }
+  /* Smartphones (portrait) ----------- */
+  @media only screen
+  and (max-width : 320px) {
+   .fonts
+   {
+    font-size: 100%;
+   }
+  }
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+   .fonts
+   {
+    font-size: 150%;
+   }
+  }
+  /* iPads (landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+   .fonts
+   {
+    font-size: 150%;
+   }
+  }
+  /* iPads (portrait) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : portrait) {
+
+   .fonts
+   {
+    font-size: 150%;
+   }
+  }
+  /* Desktops and laptops ----------- */
+  @media only screen
+  and (min-width : 1224px) {
+   .fonts
+   {
+    font-size: 135%;
+   }
+  }
+  /* Large screens ----------- */
+  @media only screen
+  and (min-width : 1824px) {
+   .fonts
+   {
+    font-size: 150%;
+   }
+  }
+  /* iPhone 4 ----------- */
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+   .fonts
+   {
+    font-size: 100%;
+   }
+  }

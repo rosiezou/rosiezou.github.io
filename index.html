@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
   <body>
-    <div class="content-page-one">
+    <div class="content-page-one" id="WelcomePage">
       <div class = "text-center name-format">
         Rosie Zou
       </div>
@@ -41,63 +41,88 @@
       </div>
       <div class "container-fluid">
         <div class="row contact-format">
-          <div class="col-xs-3 text-center"><a href="http://github.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Github</a></div>
-          <div class="col-xs-3 text-center"><a href="https://ca.linkedin.com/in/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">LinkedIn</a></div>
-          <div class="col-xs-3 text-center"><a href="http://devpost.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Devpost</a></div>
-          <div class="col-xs-3 text-center"><a href="mailto:rosiezou@gmail.com" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Email</a></div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-center"><a href="http://github.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Github</a></div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-center"><a href="https://ca.linkedin.com/in/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">LinkedIn</a></div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-center"><a href="http://devpost.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Devpost</a></div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-center"><a href="mailto:rosiezou@gmail.com" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Email</a></div>
         </div>
       </div>
     </div>
-        <div class="AboutMe">
+    <div class="AboutMe" id="About">
+      <div class="row">
+        <div class = "col-md-4 col-sm-6 ProfilePic hidden-xs">
+        </div>
+        <div class = "col-md-8 col-sm-6 text-center about-content-format fonts">
+          <div class="about-subtitle-format">About Me</div>
+          <br></br><br>
+          Hello and welcome to my site!<br>My name is Rosie and I'm a third-year Math student at
+          the University of Waterloo, with a minor in Computer Science. Originally starting out
+          with a major in Financial Analysis, I have grown increasingly interested in Data Science over
+          the past two years and will be switching into Statistics in the upcoming semester. My passion for
+          Machine Learning has motivated a lot of my previous hackathon projects and future career pursuits.
+          Scroll down for my professional experience and projects. Enjoy!<br>
+        </div>
+      </div>
+    </div>
+    <div class="WorkExperience" id="Work">
+      <div class = "row">
+        <div class="col-xs-12 col-sm-6 col-md-8 work-content-format fonts">
+          <p class="work-subtitle-format">Professional Experience</p>
+          <br>
+          <p class="text-center">Apr-Dec 2016<br><b>Equity Trading Assistant</b><br>Automated Execution Group at <b>TD Securities</b></p>
+          <div class="text-left">
+            <ul style="list-style-type: circle">
+              <li>Migrated trade execution latency code from <b>Matlab</b> to <b>Python</b>, improved code legibility in the process</li>
+              <li>Automated daily client trade reports using <b>VBScript</b> and <b>SQL</b>.</li>
+              <li>Analyzed and visualized trends for TD Waterhouse historic trades in Microsoft Excel</li>
+              <li>Allocated over thirty institutional clients' high-volume trades on a daily basis</li>
+              <li>Researched various financial databases such as NASDAQ and IIROC to compile month-end market reports.</li>
+            </ul>
+          </div>
+          <br>
+          <p class="text-center">Sep-Dec 2015<br><b>Associate Business Analyst</b><br>Risk Management Information Technology at <b>Scotiabank</b></p>
+          <div class="text-left">
+            <ul style="list-style-type: circle">
+              <li>Assisted with the migration project of Scotiabank Europe's financial reporting system using <b>JIRA</b></li>
+              <li>Provided support in various aspects of project management including heat map updates and cost tracking</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 TorontoPic hidden-xs"></div>
+      </div>
+    </div>
+    <div class="Projects" id="Projects">
+      <div class="row">
+        <div class = "col-md-4 col-sm-6 HackTheNorth hidden-xs"></div>
+        <div class = "col-xs-12 col-sm-6 col-md-8 work-content-format fonts">
+          <p class="projects-subtitle-format">Projects</p>
           <div class="row">
-            <div class = "col-md-4 ProfilePic">
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+              Level 2A: .col-xs-8 .col-sm-6
             </div>
-            <div class = "col-md-8 text-center about-content-format">
-              <div class="about-subtitle-format">About Me</div>
-              <br></br><br>
-              Hello and welcome to my site!<br>My name is Rosie and I'm a third-year Math student at
-              the University of Waterloo, with a minor in Computer Science. Originally starting out
-              with a major in Financial Analysis, I have grown increasingly interested in Data Science over
-              the past two years and will be switching into Statistics in the upcoming semester. My passion for
-              Machine Learning has motivated a lot of my previous hackathon projects and future career pursuits.
-              Scroll down for my professional experience and projects. Enjoy!<br>
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+              Level 2A: .col-xs-4 .col-sm-6
             </div>
           </div>
-        </div>
-        <div class = "container subtitle-format">
-          Professional Experience
-        </div>
-        <div class="row content-format2" style = "padding-top: 10px">
-          <div class="col-md-6">
-            <div class="text-center">Apr-Dec 2016<br>Equity Trading Assistant, Automated Execution Group at <b>TD Securities</b></div>
-            <div class="text-left">
-              <ul style="list-style-type: circle">
-                <li>Migrated trade execution latency code from <b>Matlab</b> to <b>Python</b>, improved code legibility in the process</li>
-                <li>Automated daily client trade reports using <b>VBScript</b> and <b>SQL</b>.</li>
-                <li>Analyzed and visualized trends for TD Waterhouse historic trades in Microsoft Excel</li>
-                <li>Allocated over thirty institutional clients' high-volume trades on a daily basis</li>
-                <li>Researched various financial databases such as NASDAQ and IIROC to compile month-end market reports.</li>
-              </ul>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+              Level 2B: .col-xs-8 .col-sm-6
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+              Level 2B: .col-xs-4 .col-sm-6
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="text-center">Sep-Dec 2015<br>Associate Business Analyst, Risk Management Information Technology at <b>Scotiabank</b></div>
-            <div class="text-left">
-              <ul style="list-style-type: circle">
-                <li>Assisted with the migration project of Scotiabank Europe's financial reporting system using <b>JIRA</b></li>
-                <li>Provided support in various aspects of project management including heat map updates and cost tracking</li>
-                <li>More bullshit</li>
-                <li>More bullshit</li>
-              </ul>
+          <div class="row">
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+              Level 2C: .col-xs-8 .col-sm-6
             </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="subtitle-format">
-            Projects
+            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+              Level 2C: .col-xs-4 .col-sm-6
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
   </body>
 </html>
