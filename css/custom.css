@@ -8,6 +8,7 @@ html,body
     display: block !important;
 }
 
+
 .name-format{
     font-family: Open Sans Condensed;
     font-weight: bold;
@@ -81,7 +82,8 @@ html,body
   text-align: center;
   font-weight: bold;
   color: black;
-  padding-top: 5%
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 .work-subtitle-format{
@@ -97,7 +99,7 @@ html,body
   font-family: Open Sans Condensed;
   height: 100vh;
   font-size: 15pt;
-  padding-top: 10%;
+  padding-top: 30px;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -111,7 +113,17 @@ html,body
   padding-right: 10%;
 }
 
-.content-page-one {
+.project-content-format{
+  font-family: Open Sans Condensed;
+  height: 100vh;
+  font-size: 14pt;
+}
+
+.top-buffer {
+  margin-top:30px;
+}
+
+.WelcomePage {
   height: 100vh;
   width: 100%;
   max-width: 100%;
@@ -120,6 +132,11 @@ html,body
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 3s; /* Firefox < 16 */
+      -ms-animation: fadein 3s; /* Internet Explorer */
+       -o-animation: fadein 3s; /* Opera < 12.1 */
+          animation: fadein 3s;
 }
 
 .AboutMe{
@@ -162,7 +179,7 @@ html,body
   background-size: cover;
 }
 
-.Projects{
+.HackathonProjects{
   width: 100%;
   max-width: 100%;
   background-image: url("../images/bg4.png");
@@ -178,7 +195,7 @@ html,body
   text-align: center;
   font-weight: bold;
   color: black;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 .TorontoPic{
@@ -273,3 +290,69 @@ html,body
     font-size: 100%;
    }
   }
+
+.VisualTA-background{
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/VisualTA.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.STEMLabs-background{
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/STEMLabs.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.WalletStreet-background{
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/WalletStreet.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.Mortgage-Freeman-background{
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/Mortgage-Freeman.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.The-Sticker-Exchange-background{
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/The-Sticker-Exchange.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.BSOMeter-background{
+  width: 200px;
+  height: 200px;
+  background-image: url("../images/BSOMeter.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}

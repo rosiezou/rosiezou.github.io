@@ -32,14 +32,14 @@
     <![endif]-->
   </head>
   <body>
-    <div class="content-page-one" id="WelcomePage">
-      <div class = "text-center name-format">
+    <div class="WelcomePage" id="WelcomePage">
+      <div class = "text-center name-format" id="Name">
         Rosie Zou
       </div>
-      <div class = "text-center bio-format"><br></br>
+      <div class = "text-center bio-format" id="ShortBio"><br></br>
         UWaterloo B.Math Class of 2019, AI enthusiast, aspiring entrepreneur
       </div>
-      <div class "container-fluid">
+      <div class "container-fluid" id="Contact">
         <div class="row contact-format">
           <div class="col-xs-3 col-sm-3 col-md-3 text-center"><a href="http://github.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Github</a></div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-center"><a href="https://ca.linkedin.com/in/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">LinkedIn</a></div>
@@ -50,23 +50,41 @@
     </div>
     <div class="AboutMe" id="About">
       <div class="row">
-        <div class = "col-md-4 col-sm-6 ProfilePic hidden-xs">
+        <div class = "col-md-4 col-sm-6 col-lg-4 ProfilePic hidden-xs">
         </div>
-        <div class = "col-md-8 col-sm-6 text-center about-content-format fonts">
-          <div class="about-subtitle-format">About Me</div>
-          <br></br><br>
-          Hello and welcome to my site!<br>My name is Rosie and I'm a third-year Math student at
-          the University of Waterloo, with a minor in Computer Science. Originally starting out
-          with a major in Financial Analysis, I have grown increasingly interested in Data Science over
-          the past two years and will be switching into Statistics in the upcoming semester. My passion for
-          Machine Learning has motivated a lot of my previous hackathon projects and future career pursuits.
-          Scroll down for my professional experience and projects. Enjoy!<br>
+        <div class = "col-md-8 col-sm-6 col-lg-8 about-content-format fonts">
+          <div class="about-subtitle-format text-center">About Me</div>
+          <p>
+            Hello and welcome to my site!<br></br>
+          </p>
+          <p>
+            My name is Rosie and I'm a third-year Math student at the University of Waterloo,
+            with a minor in Computer Science.
+          </p>
+          <p>
+            Originally, I started out with a major in Financial Analysis.
+            Thanks to previous internship experience with major Canadian banks, I have gained
+            strong written and oral communication skills, as well as an extensive background
+            knowledge in the diverse North American market structure and stock trading practices.
+          </p>
+          <p>
+            Over the past two years, I have grown increasingly interested in data science and
+            will be switching into Statistics in the upcoming semester.
+            I have experience in various programming languages, libraries, and frameworks,
+            including <b>Python</b>, <b>C</b>, <b>VBScript</b>, various Python Machine Learning libraries,
+            <b>SQL</b>, and <b>Flask</b>. My passion for Machine Learning has motivated a lot of my hackathon
+            projects, where I designed and implemented most of the algorithms,
+            as well as future career pursuits. Please scroll down for my professional experience and projects.<br></br>
+          </p>
+          <p>
+            Enjoy!
+          </p>
         </div>
       </div>
     </div>
     <div class="WorkExperience" id="Work">
       <div class = "row">
-        <div class="col-xs-12 col-sm-6 col-md-8 work-content-format fonts">
+        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 work-content-format fonts">
           <p class="work-subtitle-format">Professional Experience</p>
           <br>
           <p class="text-center">Apr-Dec 2016<br><b>Equity Trading Assistant</b><br>Automated Execution Group at <b>TD Securities</b></p>
@@ -88,37 +106,26 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 TorontoPic hidden-xs"></div>
+        <div class="col-md-4 col-sm-6 col-lg-4 TorontoPic hidden-xs"></div>
       </div>
     </div>
-    <div class="Projects" id="Projects">
+    <div class="HackathonProjects" id="HackathonProjects">
       <div class="row">
         <div class = "col-md-4 col-sm-6 HackTheNorth hidden-xs"></div>
-        <div class = "col-xs-12 col-sm-6 col-md-8 work-content-format fonts">
-          <p class="projects-subtitle-format">Projects</p>
-          <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-              Level 2A: .col-xs-8 .col-sm-6
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-              Level 2A: .col-xs-4 .col-sm-6
-            </div>
+        <div class = "col-xs-12 col-sm-6 col-md-8 project-content-format fonts">
+          <p class="projects-subtitle-format">Hackathon Projects</p>
+          <p class="text-center" style="padding-bottom:5px">
+            from not knowing how to make API calls to HackMIT Top 10
+          </p>
+          <div class="row top-buffer">
+            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 hidden-xs VisualTA-background"></div>
+            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 hidden-xs STEMLabs-background"></div>
+            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 hidden-xs WalletStreet-background"></div>
           </div>
-          <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-              Level 2B: .col-xs-8 .col-sm-6
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-              Level 2B: .col-xs-4 .col-sm-6
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-              Level 2C: .col-xs-8 .col-sm-6
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
-              Level 2C: .col-xs-4 .col-sm-6
-            </div>
+          <div class="row top-buffer">
+            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 hidden-xs Mortgage-Freeman-background"></div>
+            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 hidden-xs The-Sticker-Exchange-background"></div>
+            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 hidden-xs BSOMeter-background"></div>
           </div>
         </div>
       </div>
