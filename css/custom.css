@@ -97,6 +97,7 @@ html,body
 
 .about-content-format{
   font-family: Open Sans Condensed;
+  font-weight: 100;
   height: 100vh;
   font-size: 15pt;
   padding-top: 30px;
@@ -209,16 +210,18 @@ html,body
 }
 
 @charset "utf-8";
+
   /* CSS Document */
   /* Smartphones (portrait and landscape) ----------- */
-  @media only screen
+  /*@media only screen
   and (min-device-width : 320px)
   and (max-device-width : 480px) {
    .fonts
    {
     font-size: 100%;
    }
-  }
+  }*/
+
   /* Smartphones (landscape) ----------- */
   @media only screen
   and (min-width : 321px) {
@@ -229,10 +232,18 @@ html,body
   }
   /* Smartphones (portrait) ----------- */
   @media only screen
+  and (max-width : 414px) {
+   .fonts
+   {
+    font-size: 110%;
+   }
+  }
+
+  @media only screen
   and (max-width : 320px) {
    .fonts
    {
-    font-size: 100%;
+    font-size: 90%;
    }
   }
   /* iPads (portrait and landscape) ----------- */
@@ -241,7 +252,7 @@ html,body
   and (max-device-width : 1024px) {
    .fonts
    {
-    font-size: 150%;
+    font-size: 100%;
    }
   }
   /* iPads (landscape) ----------- */
@@ -262,7 +273,7 @@ html,body
 
    .fonts
    {
-    font-size: 150%;
+    font-size: 120%;
    }
   }
   /* Desktops and laptops ----------- */
@@ -270,7 +281,7 @@ html,body
   and (min-width : 1224px) {
    .fonts
    {
-    font-size: 135%;
+    font-size: 125%;
    }
   }
   /* Large screens ----------- */
@@ -282,14 +293,14 @@ html,body
    }
   }
   /* iPhone 4 ----------- */
-  @media
+  /*@media
   only screen and (-webkit-min-device-pixel-ratio : 1.5),
   only screen and (min-device-pixel-ratio : 1.5) {
    .fonts
    {
-    font-size: 100%;
+    font-size: 110%;
    }
-  }
+  }*/
 
 .VisualTA-background{
   width: 200px;
@@ -349,6 +360,89 @@ html,body
 .BSOMeter-background{
   width: 200px;
   height: 200px;
+  background-image: url("../images/BSOMeter.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.mynavbar{
+  position: fixed;
+  opacity: 0.5;
+  height: 50px;
+  width: 100vw;
+  background-color: white;
+}
+
+.mynavbarTabs{
+  font-style: Open Sans Condensed;
+  font-size: 14pt;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+
+.VisualTA-background-mobile{
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/VisualTA.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.STEMLabs-background-mobile{
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/STEMLabs.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.WalletStreet-background-mobile{
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/WalletStreet.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.Mortgage-Freeman-background-mobile{
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/Mortgage-Freeman.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.The-Sticker-Exchange-background-mobile{
+  width: 145px;
+  height: 145px;
+  background-image: url("../images/The-Sticker-Exchange.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.BSOMeter-background-mobile{
+  width: 145px;
+  height: 145px;
   background-image: url("../images/BSOMeter.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
