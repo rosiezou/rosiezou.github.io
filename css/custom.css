@@ -455,3 +455,42 @@ html,body
   background-size: cover;
   opacity: 0.5;
 }
+
+.project-content-format-detail{
+  font-family: Open Sans Condensed;
+  font-size: 14pt;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+}
+
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+}
+.image-container .mask {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.effect .mask {
+    opacity: 0;
+    overflow:visible;
+    border:100px solid rgba(0, 0, 0, 0.7);
+    box-sizing:border-box;
+    transition: all 0.4s ease-in-out;
+}
+
+.effect:hover .mask {
+   opacity: 1;
+   background-color:rgba(0,0,0,0.7);
+}
+
+.effect:hover a.info {
+    opacity:1;
+    transition-delay: 0.3s;
+}
