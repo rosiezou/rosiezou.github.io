@@ -465,7 +465,7 @@ html,body
 }
 
 .project-background{
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   height: 200px;
   width: 200px;
   padding-left: 10px;
@@ -480,9 +480,33 @@ html,body
 
 .show-details:hover .hide-details{
   display: block;
-  -webkit-animation: fadein 2s;
-   -moz-animation: fadein 2s;
-    -ms-animation: fadein 2s;
-     -o-animation: fadein 2s;
-        animation: fadein 2s;
+  -webkit-animation: fadein 1s;
+   -moz-animation: fadein 1s;
+    -ms-animation: fadein 1s;
+     -o-animation: fadein 1s;
+        animation: fadein 1s;
+}
+
+.project-background-mobile{
+  background-color: rgba(0,0,0,0.7);
+  height: 145px;
+  width: 145px;
+  left: -15;
+}
+
+.project-content-format-detail-mobile{
+  font-family: Open Sans Condensed;
+  font-size: 13pt;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15%;
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+ .project-blocks
+ {
+  display: none;
+ }
 }
