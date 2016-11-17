@@ -305,7 +305,7 @@ html,body
 .VisualTA-background{
   width: 200px;
   height: 200px;
-  background-image: url("../images/VisualTA.jpg");
+  background-image: url("../images/VisualTA.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -316,7 +316,7 @@ html,body
 .STEMLabs-background{
   width: 200px;
   height: 200px;
-  background-image: url("../images/STEMLabs.jpg");
+  background-image: url("../images/STEMLabs.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -327,7 +327,7 @@ html,body
 .WalletStreet-background{
   width: 200px;
   height: 200px;
-  background-image: url("../images/WalletStreet.jpg");
+  background-image: url("../images/WalletStreet.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -338,7 +338,7 @@ html,body
 .Mortgage-Freeman-background{
   width: 200px;
   height: 200px;
-  background-image: url("../images/Mortgage-Freeman.jpg");
+  background-image: url("../images/MortgageFreeman.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -349,7 +349,7 @@ html,body
 .The-Sticker-Exchange-background{
   width: 200px;
   height: 200px;
-  background-image: url("../images/The-Sticker-Exchange.jpg");
+  background-image: url("../images/TheStickerExchange.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -360,7 +360,7 @@ html,body
 .BSOMeter-background{
   width: 200px;
   height: 200px;
-  background-image: url("../images/BSOMeter.jpg");
+  background-image: url("../images/BSOMeter.png");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
