@@ -1,4 +1,4 @@
-<html lang = "en">
+<html lang = "fr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,7 +6,7 @@
     <meta name="author" content="Rosie Zou">
     <title>Rosie's site</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap and Font Awesome -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/customv2.css" rel="stylesheet">
@@ -24,16 +24,121 @@
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm/js"></script>
+    <script src="js/home.js"></script>
 
   </head>
   <body>
+    <div class="headerIcon">
+      <details>
+        <summary>
+          <a href="#" style="text-decoration: none; color: black"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+        </summary>
+        <p1 class="languageSelection"><a href="index.html" style = "text-decoration: none; color: black">English</a><br></p1>
+        <p2 class="languageSelection"><a href="simplifiedChineseVersion.html" style="text-decoration: none; color: black">中文</a></p2>
+      </div>
+    </header>
     <div class="welcomeText">
-      <div class="welcomeTextLines">
-        <h1>Bonjour, je suis Rosie.</h1>
-        <h2>Bienvenue à mon site Web!</h2>
-        <a href="index.html">English version</a><br>
-        <a href="simplifiedChineseVersion.html">简体中文版</a>
+      <h1>Bonjour, je suis Rosie.</h1>
+      <h2>Bienvenue à mon site web!</h2>
+    </div>
+    <!-- <div class="buttonIcon">
+      <i class="fa fa-dot-circle-o fa-2x" aria-hidden="true" style="text-align: center">
+      </i>
+    </div> -->
+    <div style="margin-top: 100vh"></div>
+    <div class="about">
+        <h1 class="aboutTitle">
+          À propos de moi
+        </h1>
+      <div class="aboutContents">
+        Bonjour!<br>Je m'appelle Rosie Zou, et je suis une étudiante d'informatique dans ma troisièmme année à
+        l'université de Waterloo. Mes intérêts academiques et professionelle sont la technologie financielle,
+        la science des données, et la recherche pour l'inteligence artificielle. Ayant été stagiaire dans
+        quelques institutions financières, j'ai acquis beaucoup de connaissances en la structure diverse du
+        marché boursier en Amérique du Nord. J'ai aussi fait des tâches d'automation et des projets analytiques
+        en utilisant une variété des langages de programmation, des bibliothèques, et des cadres applicatifs qui
+        incluent <b>Python</b>, <b>C</b>, <b>VBScript</b>, NumPy, scikit-learn, <b>SQL</b>, et Flask.
+        Veuillez défiler le texte pour plus de détails sur mon expérience professionnelle et mes projets personnels.
+        Amusez-vous!
       </div>
     </div>
+    <div class="break"></div>
+    <div class="about">
+      <div class="aboutTitle" style="margin-top: 20px;">
+        Expérience Professionnelle
+      </div>
+      <div class="row top-buffer aboutContents">
+        <div class="col-md-3 col-lg-3">
+          <b>Mai-Déc 2016, TD Securities</b><br></br>
+          <b><u>Equity Trading Intern, Automated Execution Group</u></b>
+        </div>
+        <div class="col-md-9 col-lg-9">
+          The Automated Execution Group is an electronic trading desk that provides institutional
+          clients with Direct Market Access and algorithm solutions for trading on the Canadian stock
+          markets. It was a fast-paced work environment with a lot of time-sensitive tasks. While on the team,
+          I automated numerous client-specific trade recaps and daily reports such as the Market On Close Imbalance
+          and Price Movement Extension reports. I also completed ad-hoc data analysis tasks on a regular basis in
+          order to support the sales and marketing teams. The majority of these tasks involved data visualization
+          and trend analysis for historic trade records and broker comparisons.
+        </div>
+      </div>
+      <div class="row top-buffer aboutContents">
+        <div class="col-md-3 col-lg-3">
+          <b>Sep-Dec 2015, Scotiabank</b><br></br>
+          <b><u>Associate Business Analyst, Risk Management Information Technology</u></b>
+        </div>
+        <div class="col-md-9 col-lg-9">
+          The RMIT groups at Scotiabank were a part of a larger Compliance department. During my internship,
+          I worked with a PM and several Business Analysts to replace a deprecated financial reporting software.
+          I had the opportunity to learn how to manage large enterprise projects and assisted the PM with
+          various tasks, including daily updates of JIRA issue logs, heat maps, and project cost analysis.
+        </div>
+      </div>
+    </div>
+    <div class="break">
+    </div>
+    <div class="about">
+      <div class="aboutTitle" style="padding-top: 20px;">
+        Hackathon Projects<br>
+        <p style="font-size: 0.5em; font-family: Open Sans"> highlights from my hackathon trips over the last year
+        </p>
+        <div class = "row">
+          <div class="box col-md-4" style="border: solid">
+            <div style="margin: 50px;">
+              Box One
+            </div>
+          </div>
+          <div class="box col-md-4">
+            Box Two
+          </div>
+          <div class="box col-md-4">
+            Box Three
+          </div>
+        </div>
+        <div class = "row">
+          <div class="box col-md-4">
+            Box Four
+          </div>
+          <div class="box col-md-4">
+            Box Five
+          </div>
+          <div class="box col-md-4">
+            Box Six
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="break" style="text-align: center"> <br><br><br>
+      <i class="fa fa-copyright" aria-hidden="true"></i> Rosie Zou. All rights reserved.
+    </div>
+    <footer>
+      <a href="https://github.com/rosiezou" target="_blank"><i class="logos fa fa-github fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/rosiezou" target="_blank"><i class="logos fa fa-linkedin fa-2x"></i></a>
+      <a href="mailto:rosiezou@gmail.com"><i class="logos fa fa-envelope fa-2x"></i></a>
+      <a href="#"><i class="logos fa fa-file-text fa-2x"></i></a>
+      <a href="https://ibibs.wordpress.com/" target="_blank"><i class="logos fa fa-wordpress fa-2x"></i></a>
+    </footer>
+
+
   </body>
 </html>
