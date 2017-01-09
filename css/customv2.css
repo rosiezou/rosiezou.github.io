@@ -29,16 +29,14 @@ footer {
   text-align: center;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.welcomeTextLines{
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  position: relative;
+  top: calc(50% - 90px);
+  padding: 35px;
+  background-color: rgba(0,0,0,0.2);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 }
 
 #language{
@@ -66,25 +64,23 @@ footer {
   background-color: rgba(255, 255, 255, 0.9);
   color: black;
   font-size: 2em;
-  position: relative;
+  /*position: relative;*/
   margin-top: 15vh;
   margin-bottom: 15vh;
   margin-left: 10%;
   margin-right: 10%;
-  min-height: 100% !important;
+  /*min-height: 100% !important;*/
   overflow: auto;
-  display: flex;
-  display: -webkit-flex; /* Safari */
-  display: -moz-flex;
+  /*display: flex;*/
 }
 
 .aboutTitle{
-  top: 10%;
+  /*top: 10%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
   font-family: 'Josefin Sans';
   font-size: 1em;
-  position: absolute;
+  /*position: absolute;*/
   text-align: center;
 }
 
@@ -92,11 +88,12 @@ footer {
   font-family: 'Open Sans';
   font-size: 0.5em;
   text-align: center;
-  padding-top: 25vh;
-  position: absolute;
+  padding: 35px;
+  /*padding-top: 25vh;*/
+  /*position: absolute;
   left: 50%;
   transform: translate(-50%,0);
-  width: 80%;
+  width: 80%;*/
 }
 
 .break{
