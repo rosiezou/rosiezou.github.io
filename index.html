@@ -1,16 +1,16 @@
-<html lang = "en">
+<html ng-app lang = "en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="My first attempt at making a website using Bootstrap.">
     <meta name="author" content="Rosie Zou">
     <title>Rosie's site</title>
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap and Font Awesome -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/customv2.css" rel="stylesheet">
+    <link href="js/node_modules/angular-material/modules/angular-material.css" rel="stylesheet">
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
@@ -19,218 +19,105 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:600" rel="stylesheet">
 
     <!--Scripts-->
     <script src="scripts/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/npm/js"></script>
+    <script src="js/home.js"></script>
+    <!-- <script src="js/angular.min.js"></script> -->
 
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <!-- <div class="mynavbar"id="MyNavbar"></div> -->
+    <div class="headerIcon">
+      <details>
+        <summary>
+          <a href="#" style="text-decoration: none; color: black"><i class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
+        </summary>
+        <p1 class="languageSelection"><a href="versionFrancais.html" style = "text-decoration: none; color: black">française</a><br></p1>
+        <p2 class="languageSelection"><a href="simplifiedChineseVersion.html" style="text-decoration: none; color: black">中文</a></p2>
+      </div>
+    </header>
+    <div>
+      <section class="welcomeText">
+        <div class="welcomeTextLines">
+          <h1>Hello, I'm Rosie.</h1>
+          <h2>Welcome to my site!</h2>
+        </div>
+      </section>
+    </div>
+    <div style="margin-top: 100vh; height: 15vh">
+    </div>
+    <div class="about">
+      <h1 class="aboutTitle">
+        About Me
+      </h1>
+      <p1 class="aboutContents">
+        Hi!<br>My name is Rosie Zou, and I am a third-year Computer Science student at the University of Waterloo.
+        My main areas of professional and academic interst are financial technology, data science,
+        and AI research. Having completed previous internships at financial institutions, I have gained
+        extensive knowledge in the diverse North American market structure and stock trading practices.
+        I have also worked on many automation tasks and data analysis projects using various programming
+        languages, libraries, and frameworks, including <b>Python</b>, <b>C</b>, <b>VBScript</b>, numpy, scikit-learn,
+        <b>SQL</b>, and Flask. Please scroll down for more details regarding my professional experience and
+        personal projects. Enjoy!
+      </p1>
+    </div>
+    <div class="break"></div>
+    <div class="work">
+      <div class="aboutTitle">
+        Work Experience
+      </div>
+      <div class="row top-buffer workContents">
+        <div class="col-md-3 col-lg-3" style="padding-right: 0px; padding-left: 30px;">
+          <b>May-Dec 2016, TD Securities</b><br></br>
+          <b><u>Equity Trading Intern, Automated Execution Group</u></b>
+        </div>
+        <div class="col-md-9 col-lg-9" style="padding-right: 0px; padding-left: 30px;">
+          The Automated Execution Group is an electronic trading desk that provides institutional
+          clients with Direct Market Access and algorithm solutions for trading on the Canadian stock
+          markets. It was a fast-paced work environment with a lot of time-sensitive tasks. While on the team,
+          I automated numerous client-specific trade recaps and daily reports such as the Market On Close Imbalance
+          and Price Movement Extension reports. I also completed ad-hoc data analysis tasks on a regular basis in
+          order to support the sales and marketing teams. The majority of these tasks involved data visualization
+          and trend analysis for historic trade records and broker comparisons.
+        </div>
+      </div>
+      <div class="row top-buffer workContentsTwo">
+        <div class="col-md-3 col-lg-3" style="padding-right: 0px; padding-left: 30px;">
+          <b>Sep-Dec 2015, Scotiabank</b><br></br>
+          <b><u>Associate Business Analyst, Risk Management Information Technology</u></b>
+        </div>
+        <div class="col-md-9 col-lg-9" style="padding-right: 0px; padding-left: 30px;">
+          The RMIT groups at Scotiabank were a part of a larger Compliance department. During my internship,
+          I worked with a PM and several Business Analysts to replace a deprecated financial reporting software.
+          I had the opportunity to learn how to manage large enterprise projects and assisted the PM with
+          various tasks, including daily updates of JIRA issue logs, heat maps, and project cost analysis.
+        </div>
+      </div>
+    </div>
+    <div class="break">
+    </div>
+    <div class="projects">
+      <div class="aboutTitle">
+        Hackathon Projects<br>
+        <p style="font-size: 0.5em; font-family: Open Sans"> Highlights from my hackathon trips over the last year
+        </p>
+        
+      </div>
+    </div>
+    <div class="break" style="text-align: center"> <br><br><br>
+      <i class="fa fa-copyright" aria-hidden="true"></i> Rosie Zou. All rights reserved.
+    </div>
+    <footer>
+      <a href="https://github.com/rosiezou" target="_blank"><i class="logos fa fa-github fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/rosiezou" target="_blank"><i class="logos fa fa-linkedin fa-2x"></i></a>
+      <a href="mailto:rosiezou@gmail.com"><i class="logos fa fa-envelope fa-2x"></i></a>
+      <a href="#"><i class="logos fa fa-file fa-2x"></i></a>
+      <a href="https://ibibs.wordpress.com/" target="_blank"><i class="logos fa fa-wordpress fa-2x"></i></a>
+    </footer>
 
-    <div class="WelcomePage" id="WelcomePage">
-      <nav class="navbar navbar-default navbar-fixed-top mynavbar" id="#navb">
-        <div class="row">
-          <div class="col-md-3 col-xs-3 col-sm-3 text-center mynavbarItems"><a href="#WelcomePage" style="color: white; font-weight: bold; text-decoration: none">Home</a></div>
-          <div class="col-md-3 col-xs-3 col-sm-3 text-center mynavbarItems"><a href="#About" style="color: white; font-weight: bold; text-decoration: none">About</a></div>
-          <div class="col-md-3 col-xs-3 col-sm-3 text-center mynavbarItems"><a href="#Work" style="color: white; font-weight: bold; text-decoration: none">Work</a></div>
-          <div class="col-md-3 col-xs-3 col-sm-3 text-center mynavbarItems"><a href="#HackathonProjects" style="color: white; font-weight: bold; text-decoration: none">Projects</a></div>
-        </div>
-      </nav>
-      <div class = "text-center name-format" id="Name">
-        Rosie Zou
-      </div>
-      <div class = "text-center bio-format" id="ShortBio"><br></br>
-        UWaterloo B.Math Class of 2019, AI enthusiast, aspiring entrepreneur
-      </div>
-      <div class "container-fluid" id="Contact">
-        <div class="row contact-format">
-          <div class="col-xs-4 col-sm-4 col-md-4 text-center"><a href="http://github.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">GitHub</a></div>
-          <div class="col-xs-4 col-sm-4 col-md-4 text-center"><a href="https://ca.linkedin.com/in/rosiezou" style="color: black; font-weight: bold; text-decoration: none" target="_blank">LinkedIn</a></div>
-          <div class="col-xs-4 col-sm-4 col-md-4 text-center"><a href="mailto:rosiezou@gmail.com" style="color: black; font-weight: bold; text-decoration: none" target="_blank">Email</a></div>
-        </div>
-      </div>
-    </div>
-    <div class="AboutMe" id="About">
-      <div class="row">
-        <div class = "col-md-4 col-sm-6 col-lg-4 ProfilePic hidden-xs" id="Profile">
-        </div>
-        <div class = "col-md-8 col-sm-6 col-lg-8 about-content-format fonts">
-          <div class="about-subtitle-format text-center">About Me</div>
-          <p>
-            Hello and welcome to my site!<br></br>
-          </p>
-          <p>
-            My name is Rosie and I'm a third-year Math student at the University of Waterloo,
-            with a minor in Computer Science.
-          </p>
-          <p>
-            Originally, I started out with a major in Financial Analysis.
-            Thanks to previous internship experience with major Canadian banks, I have gained
-            strong written and oral communication skills, as well as an extensive background
-            knowledge in the diverse North American market structure and stock trading practices.
-          </p>
-          <p>
-            Over the past two years, I have grown increasingly interested in data science and
-            will be switching into Statistics in the upcoming semester.
-            I have experience in various programming languages, libraries, and frameworks,
-            including <b>Python</b>, <b>C</b>, <b>VBScript</b>, various Python Machine Learning libraries,
-            <b>SQL</b>, and <b>Flask</b>. My passion for Machine Learning has motivated a lot of my hackathon
-            projects, where I designed and implemented most of the algorithms,
-            as well as future career pursuits. Please scroll down for my professional experience and projects.<br></br>
-          </p>
-          <p>
-            Enjoy!
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="WorkExperience" id="Work">
-      <div class = "row">
-        <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 work-content-format fonts">
-          <p class="work-subtitle-format">Professional Experience</p>
-          <br>
-          <p class="text-center">Apr-Dec 2016<br><b>Equity Trading Intern</b><br>Automated Execution Group at <b>TD Securities</b></p>
-          <div class="text-left">
-            <ul style="list-style-type: circle">
-              <li>Migrated trade execution latency code from <b>Matlab</b> to <b>Python</b>, improved code legibility in the process</li>
-              <li>Automated daily client trade reports using <b>VBScript</b> and <b>SQL</b>.</li>
-              <li>Analyzed and visualized millions of trade records using Python, SQL, and VBScript</li>
-              <li>Allocated over thirty institutional clients' high-volume trades on a daily basis</li>
-              <li>Researched various financial databases such as NASDAQ and IIROC to compile month-end market reports.</li>
-            </ul>
-          </div>
-          <br>
-          <p class="text-center">Sep-Dec 2015<br><b>Associate Business Analyst</b><br>Risk Management Information Technology at <b>Scotiabank</b></p>
-          <div class="text-left">
-            <ul style="list-style-type: circle">
-              <li>Assisted with the migration project of Scotiabank Europe's financial reporting system using <b>JIRA</b></li>
-              <li>Provided support in various aspects of project management including heat map updates and cost analysis</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6 col-lg-4 TorontoPic hidden-xs"></div>
-      </div>
-    </div>
-    <div class="HackathonProjects" id="HackathonProjects">
-      <div class="row">
-        <div class = "col-md-4 col-sm-6 col-lg-4 HackTheNorth hidden-xs"></div>
-        <div class = "col-xs-12 col-sm-6 col-md-8 col-lg-8 project-content-format fonts">
-          <p class="projects-subtitle-format">Hackathon Projects</p>
-          <p class="text-center hidden-xs hidden-sm" style="padding-bottom:5px">
-            highlights from my hacking trips over the past year
-          </p>
-          <div class="row top-buffer hidden-xs hidden-sm">
-            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 hidden-xs VisualTA-background show-details">
-              <div class="project-background project-content-format-detail hide-details">
-                  VisualTA is a hololens app that analyzes facial expressions and provides
-                  real-time feedback. I used the
-                  scikit-learn Python library to implement a simple decision
-                  tree algorithm that differentiates confused students. Click
-                  <a href="https://devpost.com/software/dubhacks2016-yvzcfb" target="_blank" style="color: white; font-weight: bold;">
-                    here
-                  </a>
-                   to view the project on Devpost.
-              </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 hidden-xs STEMLabs-background show-details">
-              <div class="project-background project-content-format-detail hide-details">
-                STEMLabs was the first hololens app for everyone on my team at HackMIT, designed to help
-                university students. For our demo,
-                we made an interactive model of the DFS algorithm. Click
-                <a href="https://devpost.com/software/dubhacks2016-yvzcfb" target="_blank" style="color: white; font-weight: bold;">
-                  here
-                </a>
-                  to view a demo and more details on Devpost.
-              </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 hidden-xs project-blocks WalletStreet-background show-details">
-              <div class="project-background project-content-format-detail hide-details">
-                WalletStreet is an app that gives users stock recommendations based on their spendint habits.
-                I designed all of the backend algorithms and implemented most of them, namely the algos for spending
-                pattern predictions. Project details can be found
-                <a href="https://devpost.com/software/walletstreet" target="_blank" style="color: white; font-weight: bold">
-                  here
-                </a>
-                .
-              </div>
-            </div>
-          </div>
-          <div class="row top-buffer hidden-xs hidden-sm">
-            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 hidden-xs Mortgage-Freeman-background show-details">
-              <div class="project-background project-content-format-detail hide-details">
-                 Mortgage-Freeman is a mortgage recommendation tool targeting millennials with very little financial planning skills. For this app,
-                 I designed all of the algorithms for calculating mortgage interest rates, monthly payments, and duration.
-                 Click
-                 <a href="https://devpost.com/software/mortgage-freeman" target="_blank" style="color: white; font-weight: bold">
-                   here
-                 </a>
-                  for more details.
-              </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 hidden-xs The-Sticker-Exchange-background show-details">
-              <div class="project-background project-content-format-detail hide-details">
-                My team and I tried to build an alternative stock exchange out of scratch at PennApps Fall 2016.
-                Designing and implementing stock order matching algorithms turned out to be a lot harder than we thought.
-                Click
-                <a href="https://devpost.com/software/the-sticker-exchange-bs5yz6" target="_blank" style="color: white; font-weight: bold">
-                  here
-                </a>
-                 for more details and link to the Github repo.
-              </div>
-            </div>
-            <div class="col-sm-3 col-sm-offset-1 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 hidden-xs project-blocks BSOMeter-background show-details">
-              <div class="project-background project-content-format-detail hide-details">
-                BSO'Meter is an iPhone app that analyzes political text and determines how much of it is BS.
-                For this app, I mostly worked on text analysis algorithms including content summarization and sentiment analysis.
-                Click
-                <a href="https://devpost.com/software/bsometer" target="_blank" style="color: white; font-weight; bold">
-                  here
-                </a>
-                 for more details.
-              </div>
-            </div>
-          </div>
-          <div class="visible-xs visible-sm project-content-format-detail-mobile fonts">
-            Between Fall 2015 and Fall 2016, I have participated in seven
-            hackathons and worked on a wide range of projects from FinTech hacks to HoloLens apps.
-            For the most part, I designed and implemented data analysis and machine learning algorithms.
-            <br></br>It has been a rewarding journey so far, and I have learned so much
-            and met some incredibly amazing friends along the way. Besides getting better
-            at algorithm designing and implementation, I have also come to understand the importance
-            of having imperfect but heuristic solutions for rapid prototyping. For a complete list of projects,
-            please visit my Devpost page
-            <a href="http://devpost.com/rosiezou" style="color: black; font-weight: bold; text-decoration: none">
-              here
-            </a>
-            .
-          </div>
 
-          <!-- <div class="row visible-sm">
-            <div class="col-sm-offset-4 col-sm-2 VisualTA-background-mobile"></div>
-          </div>
-          <div class="row visible-sm top-buffer">
-            <div class="col-sm-offset-4 col-sm-2 STEMLabs-background-mobile"></div>
-          </div>
-          <div class="row visible-sm top-buffer">
-            <div class="col-sm-offset-4 col-sm-2 WalletStreet-background-mobile"></div>
-          </div>
-          <div class="row visible-sm top-buffer">
-            <div class="col-sm-offset-4 col-sm-2 Mortgage-Freeman-background-mobile"></div>
-          </div>
-          <div class="row visible-sm top-buffer">
-            <div class="col-sm-offset-4 col-sm-2 BSOMeter-background-mobile"></div>
-          </div> -->
-        </div>
-      </div>
-    </div>
   </body>
 </html>

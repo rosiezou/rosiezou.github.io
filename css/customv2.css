@@ -1,0 +1,161 @@
+body {
+  background: url("../images/blurry water at canyon lights.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style: normal;
+}
+
+.headerIcon{
+  text-align: right;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  font-weight: bold;
+  z-index: 1;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  text-align: center;
+  /*page-break-after: always;*/
+}
+
+.welcomeText{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.welcomeTextLines{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#language{
+  display: none;
+  text-align: right;
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.languageSelection{
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.logos{
+  color: black;
+  padding: 17px;
+  margin-bottom: 5vh;
+}
+
+.about{
+  text-align: center;
+  /*background: url("../images/bg.png") no-repeat center center fixed;*/
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  font-size: 2em;
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 100% !important;
+  overflow: auto;
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  display: -moz-flex;
+}
+
+.aboutTitle{
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Josefin Sans';
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+}
+
+.aboutContents{
+  font-family: 'Open Sans';
+  font-size: 0.5em;
+  text-align: center;
+  padding-top: 25vh;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 80%;
+}
+
+.break{
+  height: 15vh;
+}
+
+.work{
+  text-align: center;
+  /*background: url("../images/bg3.png") no-repeat center center fixed;*/
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+  font-size: 2em;
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 100%!important;
+  height: auto;
+  overflow: auto;
+
+}
+
+.workContents{
+  font-family: 'Open Sans';
+  font-size: 0.5em;
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  padding-top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.workContentsTwo{
+  font-family: 'Open Sans';
+  font-size: 0.5em;
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  padding-top: 40%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.projects{
+  text-align: center;
+  background-color: rgba(255,255,255,0.9);
+  color: black;
+  font-size: 2em;
+  position: relative;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  min-height: 100% !important;
+  overflow: auto;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
+}
