@@ -115,7 +115,7 @@ body {
 
 .aboutContents{
   font-family: 'Courier';
-  font-size: 2.8vmin;
+  font-size: 1ch;
   text-align: left;
   padding: 35px;
 }
