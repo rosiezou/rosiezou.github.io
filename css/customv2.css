@@ -100,14 +100,11 @@ body {
   text-align: left;
   color: black;
   font-size: 5vmin;
-  /*position: relative;*/
   margin-top: 15vh;
   margin-bottom: 15vh;
   margin-left: 10%;
   margin-right: 10%;
-  /*min-height: 100% !important;*/
   overflow: auto;
-  /*display: flex;*/
 }
 
 .aboutTitle{
@@ -118,8 +115,7 @@ body {
 
 .aboutContents{
   font-family: 'Courier';
-  /*font-size: 0.65em;*/
-  font-size: 2.5vmin;
+  font-size: 2.8vmin;
   text-align: left;
   padding: 35px;
 }
