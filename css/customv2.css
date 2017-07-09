@@ -1,14 +1,24 @@
 body {
-  background: url("../images/blurry water at canyon lights.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
+  /*background: url("../images/blurry water at canyon lights.png") no-repeat center center fixed;*/
+  background-color: #f2f2f2
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  font-style: normal;
+  font-style: normal;*/
 }
 
-.headerIcon{
-  text-align: right;
+.languageIcon{
+  text-align: left;
+  position: fixed;
+  right: 5%;
+  top: 33%;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.githubIcon{
+  text-align: left;
   position: fixed;
   right: 5%;
   top: 5%;
@@ -16,27 +26,45 @@ body {
   z-index: 1;
 }
 
-footer {
-  bottom: 0;
-  left: 0;
-  right: 0;
+.linkedInIcon{
+  text-align: left;
   position: fixed;
-  text-align: center;
-  /*page-break-after: always;*/
+  right: 5%;
+  top: 11.9%;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.emailIcon{
+  text-align: left;
+  position: fixed;
+  right: 4.9%;
+  top: 19%;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.resumeIcon{
+  text-align: left;
+  position: fixed;
+  right: 5%;
+  top: 26%;
+  font-weight: bold;
+  z-index: 1;
 }
 
 .welcomeText{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier';
   font-size: 2em;
   position: relative;
   top: calc(50% - 90px);
   padding: 35px;
-  background-color: rgba(0,0,0,0.2);
+  /*background-color: rgba(0,0,0,0.2);*/
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  color: white;
+  /*color: white;*/
 }
 
 .buttonIcon{
@@ -69,9 +97,7 @@ footer {
 }
 
 .about{
-  text-align: center;
-  /*background: url("../images/bg.png") no-repeat center center fixed;*/
-  background-color: rgba(255, 255, 255, 0.9);
+  text-align: left;
   color: black;
   font-size: 2em;
   /*position: relative;*/
@@ -85,25 +111,16 @@ footer {
 }
 
 .aboutTitle{
-  /*top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
-  font-family: 'Roboto';
+  font-family: 'Courier';
   font-size: 1em;
-  /*position: absolute;*/
-  text-align: center;
+  text-align: left;
 }
 
 .aboutContents{
-  font-family: 'Open Sans';
-  font-size: 0.5em;
-  text-align: center;
+  font-family: 'Courier';
+  font-size: 0.65em;
+  text-align: left;
   padding: 35px;
-  /*padding-top: 25vh;*/
-  /*position: absolute;
-  left: 50%;
-  transform: translate(-50%,0);
-  width: 80%;*/
 }
 
 .break{
