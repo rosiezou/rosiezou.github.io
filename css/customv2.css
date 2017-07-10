@@ -120,6 +120,13 @@ body {
   padding: 35px;
 }
 
+.workContents{
+  font-family: 'Courier';
+  font-size: 0.8ch;
+  text-align: left;
+  padding: 35px;
+}
+
 .break{
   height: 15vh;
 }
