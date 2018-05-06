@@ -1,11 +1,54 @@
 body {
   /*background: url("../images/blurry water at canyon lights.png") no-repeat center center fixed;*/
-  background-color: #f2f2f2
+  background-color: #343434;
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   font-style: normal;*/
+  position: relative;
+}
+
+a {
+  color: #00DD00;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bodyText {
+    font-size: 14px;
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .bodyText {
+    font-size: 16px;
+    padding: 35px;
+  }
+}
+
+.bodyText {
+  font-family: 'Courier';
+  text-align: left;
+  color: #dcdcdc;
+}
+
+.titleText{
+  font-family: 'Courier';
+  font-size: 5vmin;
+  text-align: left;
+  color: #dcdcdc;
+}
+
+.section{
+  text-align: left;
+  color: black;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: auto;
 }
 
 .languageIcon{
@@ -64,6 +107,7 @@ body {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  color: #dcdcdc;
   /*color: white;*/
 }
 
@@ -91,52 +135,22 @@ body {
 }
 
 .logos{
-  color: black;
+  color: #dcdcdc;
   padding: 17px;
   margin-bottom: 5vh;
-}
-
-.about{
-  text-align: left;
-  color: black;
-  font-size: 5vmin;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
-  margin-left: 10%;
-  margin-right: 10%;
-  overflow: auto;
-}
-
-.aboutTitle{
-  font-family: 'Courier';
-  font-size: 5vmin;
-  text-align: left;
-}
-
-.aboutContents{
-  font-family: 'Courier';
-  font-size: 1ch;
-  text-align: left;
-  padding: 35px;
-}
-
-.workContents{
-  font-family: 'Courier';
-  font-size: 0.8ch;
-  text-align: left;
-  padding: 35px;
 }
 
 .break{
   height: 15vh;
 }
 
-.box{
-  height: 300px;
-  font-size: 0.5em;
-  font-family: Open Sans;
-}
-
 details summary::-webkit-details-marker {
   display:none;
+}
+
+.particles {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100%;
 }
