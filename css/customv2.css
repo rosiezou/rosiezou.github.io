@@ -1,6 +1,6 @@
 body {
   /*background: url("../images/blurry water at canyon lights.png") no-repeat center center fixed;*/
-  background-color: #343434;
+  background-color: #dcdcdc;
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -10,14 +10,26 @@ body {
 }
 
 a {
-  color: #00DD00;
+  color: #4477b2;
+}
+
+hr{
+  margin:20px 0px 20px 0p;
+  padding:0px;
+  border:0;
+  border-bottom:1px solid #343434;
+}
+
+ul {
+  margin: 20px; 
+  padding: 0;
 }
 
 
 @media only screen and (max-width: 600px) {
   .bodyText {
     font-size: 14px;
-    padding: 15px;
+    padding: 14px;
   }
 }
 
@@ -31,14 +43,14 @@ a {
 .bodyText {
   font-family: 'Courier';
   text-align: left;
-  color: #dcdcdc;
+  color: #343434;
 }
 
 .titleText{
   font-family: 'Courier';
   font-size: 5vmin;
   text-align: left;
-  color: #dcdcdc;
+  color: #343434;
 }
 
 .section{
@@ -107,7 +119,7 @@ a {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  color: #dcdcdc;
+  color: #343434;
   /*color: white;*/
 }
 
